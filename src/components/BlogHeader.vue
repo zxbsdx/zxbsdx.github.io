@@ -1,0 +1,3 @@
+<template>
+    <h1>欢迎来到我的博客</h1>
+</template>
