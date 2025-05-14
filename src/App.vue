@@ -3,6 +3,7 @@
     <BlogHeader />
     <main class="container">
       <router-view />
+      <Content />
     </main>
     <BlogFooter />
   </div>
@@ -11,11 +12,14 @@
 <script>
 import BlogHeader from './components/BlogHeader.vue'
 import BlogFooter from './components/BlogFooter.vue'
+import Content from './components/Content.vue'
+
 
 export default {
   components: {
     BlogHeader,
-    BlogFooter
+    BlogFooter,
+    Content
   }
 }
 </script>
