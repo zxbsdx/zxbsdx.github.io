@@ -2,24 +2,29 @@
   <div id="app">
     <BlogHeader />
     <main class="container">
-      <router-view />
-      <Content />
+        <router-view />
+
+
     </main>
     <BlogFooter />
   </div>
+
 </template>
 
 <script>
 import BlogHeader from './components/BlogHeader.vue'
 import BlogFooter from './components/BlogFooter.vue'
 import Content from './components/Content.vue'
+import ArticlePreview from './components/ArticlePreview.vue'
+
 
 
 export default {
   components: {
     BlogHeader,
     BlogFooter,
-    Content
+    Content,
+    ArticlePreview
   }
 }
 </script>
