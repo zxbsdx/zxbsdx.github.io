@@ -9,7 +9,7 @@
               <router-link to="/" class="nav-link">首页</router-link>
             </li>
             <li class="nav-item">
-              <router-link to="/articles" class="nav-link">留言</router-link>
+              <router-link to="/messages" class="nav-link">留言</router-link>
             </li>
             <li class="nav-item">
               <router-link to="/categories" class="nav-link">搜索</router-link>
@@ -47,9 +47,7 @@
     justify-content: center;
 
   }
-  
 
-  
   .nav-list {
     display: flex;
     list-style: none;

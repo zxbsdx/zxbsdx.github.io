@@ -2,6 +2,7 @@
   <div id="app">
     <BlogHeader />
     <main class="container">
+        
         <router-view />
 
 
@@ -32,8 +33,11 @@ export default {
 <style>
 /* 全局样式 */
 .container {
-  max-width: 1200px;
+  width: 100vw; /* 100% 视口宽度 */
+  max-width: 1024px;
   margin: 0 auto;
   padding: 20px;
+  flex:1;
 }
+
 </style>

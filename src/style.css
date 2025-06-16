@@ -26,8 +26,9 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
   min-height: 100vh;
+  /* font-family: "EnglishFont", monospace;  */
+  font-family: "ChineseFont", monospace; 
 }
 
 h1 {
@@ -59,9 +60,7 @@ button:focus-visible {
 }
 
 #app {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
@@ -76,4 +75,18 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+@font-face {
+  font-family: 'ChineseFont';
+  src: url('/fonts/MapleMono-NF-CN-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'EnglishFont';
+  src: url('/fonts/MapleMono-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }

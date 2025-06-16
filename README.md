@@ -1,3 +1,10 @@
 # zxbsdx.github.io
 
 personal web-site ~
+
+
+#项目启动
+
+npm build --安装依赖
+
+npm run dev --启动项目

@@ -46,7 +46,7 @@ export default {
         width: 100%;
         /*只是div的最左端居中,不代表所有内容居中*/
         left:0;
- 
+        
     }
     .running-days {
         font-size: 0.9rem;

@@ -6,7 +6,7 @@ export default [
     date: '2025-05-18',
     tags: ['人生', 'W_W'],
     excerpt: '也许我会离去,但我的博客将在GitHub永存...',
-    content: '...'
+    content: '@'
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ export default [
   },
   {
     id: 3,
-    title: 'emmmm',
+    title: 'Regular',
     date: '2025-05-18',
     tags: ['人生', 'W_W'],
     excerpt: '测试测试测试测试测试测试测试测试测试测试...',

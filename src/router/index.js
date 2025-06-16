@@ -15,7 +15,12 @@ const routes = [
   path: '/article/:id',
   name: 'Article',
   component: () => import('@/views/ArticleDetail.vue')
-  }
+  },
+  {
+  path: '/oiha',
+  name: 'Edit',
+  component: () => import('@/components/ArticleEdit.vue')
+  },
 ]
 
 const router = createRouter({
