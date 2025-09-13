@@ -129,8 +129,9 @@ export default {
 
 .actions {
   margin-top: 20px;
-  display: flex;
+
   gap: 10px;
+
 }
 
 .submit-btn {

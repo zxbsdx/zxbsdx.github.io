@@ -40,12 +40,8 @@ export default {
 
 <style scoped>
     .Footer{
-        position: absolute;
-
+        width: 100%;  /* 依然是页面宽度 */
         background-color: #5352ed;
-        width: 100%;
-        /*只是div的最左端居中,不代表所有内容居中*/
-        left:0;
         
     }
     .running-days {

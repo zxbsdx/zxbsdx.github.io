@@ -43,7 +43,7 @@
   max-width: 800px;
   margin: 0 auto;
   padding: 2rem;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Maple Mono', 'JetBrains Mono', Consolas, monospace;
   color: #333;
   line-height: 1.6;
 }

@@ -1,5 +1,5 @@
 <template>
-    <div>这里是文章预览内容</div>
+   
     <ArticlePreview />
     <div class="home">
        

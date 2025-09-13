@@ -8,3 +8,5 @@ personal web-site ~
 npm build --安装依赖
 
 npm run dev --启动项目
+
+npm run deploy --部署到github Page
