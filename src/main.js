@@ -18,7 +18,7 @@ const icons = ['heart', 'star', 'thumbs-up', 'smile', 'circle', 'check', 'bolt',
 
 const colors = ['#ff2d95', '#ffdd00', '#00c2ff', '#32de84', '#ff7700', '#9d4edd', '#ff2600', '#00f5d4'];
 
-// 监听全局点击事件
+// 监听全局点击事件 屏幕下滑后就会出现误差
 document.addEventListener('click', function(e) {
     const randomIcon = icons[Math.floor(Math.random() * icons.length)];
     const randomColor = colors[Math.floor(Math.random() * colors.length)];
@@ -26,9 +26,11 @@ document.addEventListener('click', function(e) {
     const icon = document.createElement('i');
     icon.className = `fas fa-${randomIcon} click-effect`;
     
-    // 位置显示与鼠标位置有出入
-    icon.style.left = `${e.clientX}px`;
-    icon.style.top = `${e.clientY}px`;
+    // 添加页面滚动位置
+    const x = e.clientX + window.scrollX;
+    const y = e.clientY + window.scrollY;
+    icon.style.left = `${x}px`;
+    icon.style.top = `${y}px`;
     icon.style.color = randomColor;
     icon.style.fontSize = `${24 + Math.random() * 20}px`;   
 
@@ -53,3 +55,4 @@ async function loadContent() {
   hideLoader();
 }
 loadContent();
+

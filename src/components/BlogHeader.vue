@@ -28,7 +28,7 @@
     </header>
     <!-- 添加看板娘 看牌 -->
     <div class="image">
-      <img src="https://api.boxmoe.com/random.php?size=mw1024">
+      <img src="https://api.boxmoe.com/random.php?size=mw1024*500">
       <div class="blur-effect"></div>
     </div>
   </template>

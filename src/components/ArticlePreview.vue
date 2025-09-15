@@ -33,67 +33,74 @@ export default {
 </script>
 
 <style scoped>
-.article-preview {
-  display: grid;
-  gap: 2rem;
-  margin-top: 2rem;
-}
 
-.article-card {
-  background: white;
-  padding: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  transition: transform 0.2s;
-}
+  .article-preview {
+    display: grid;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
 
-.article-card:hover {
-  transform: translateY(-4px);
-}
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 
-.article-title {
-  margin: 0 0 0.5rem;
-  font-size: 1.5rem;
-}
+  .article-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+  }
 
-.article-title a {
-  color: #2c3e50;
-  text-decoration: none;
-}
+  .article-card:hover {
+    transform: translateY(-4px);
+  }
 
-.article-title a:hover {
-  color: #42b983;
-}
+  .article-title {
+    margin: 0 0 0.5rem;
+    font-size: 1.5rem;
+  }
 
-.article-meta {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  margin-bottom: 1rem;
-  color: #7f8c8d;
-  font-size: 0.9rem;
-}
+  .article-title a {
+    color: #2c3e50;
+    text-decoration: none;
+  }
 
-.tags {
-  background: #f0f0f0;
-  padding: 0.2rem 0.5rem;
-  border-radius: 4px;
-  font-size: 0.8rem;
-}
+  .article-title a:hover {
+    color: #42b983;
+  }
 
-.article-excerpt {
-  color: #34495e;
-  line-height: 1.6;
-  margin-bottom: 1rem;
-}
+  .article-meta {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    color: #7f8c8d;
+    font-size: 0.9rem;
+  }
 
-.read-more {
-  color: #42b983;
-  text-decoration: none;
-  font-weight: 500;
-}
+  .tags {
+    background: #f0f0f0;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+  }
 
-.read-more:hover {
-  text-decoration: underline;
-}
+  .article-excerpt {
+    color: #34495e;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+
+  .read-more {
+    color: #42b983;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .read-more:hover {
+    text-decoration: underline;
+  }
 </style>

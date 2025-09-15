@@ -93,7 +93,8 @@ button:focus-visible {
 .click-effect {
     position: absolute;
     pointer-events: none;
-    z-index: 1000;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
     animation: floatUp 0.8s ease-out forwards;
 }
 
