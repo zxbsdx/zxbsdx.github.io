@@ -41,7 +41,7 @@ export default {
 <style scoped>
     .Footer{
         width: 100%;  /* 依然是页面宽度 */
-        background-color: #5352ed;
+        background-color: pink;
         
     }
     .running-days {

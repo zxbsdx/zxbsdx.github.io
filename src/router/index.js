@@ -12,6 +12,25 @@ const routes = [
     component: () => import('@/views/About.vue')
   },
   {
+    path: '/messages',
+    name: 'Messages',
+    component: () => import('@/views/Messages.vue')
+  },
+  {
+    path: '/contact',
+    name: 'Contact',
+    beforeEnter: (to, from, next) => {
+      const div = document.createElement('div');
+      div.style.padding = '20px';
+      div.style.position = 'absolute';
+      div.style.width = '200px';
+      div.style.top = '60px';
+      div.style.left = '20px';
+      div.textContent = '暂无更多内容哦~';
+      document.body.appendChild(div);
+    }
+  },
+  {
   path: '/article/:id',
   name: 'Article',
   component: () => import('@/views/ArticleDetail.vue')
